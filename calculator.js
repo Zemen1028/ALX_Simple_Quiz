@@ -43,3 +43,9 @@ function calculate(operation) {
     
     document.getElementById('result').textContent = 'Result: ' + result;
 }
+// Event listeners for buttons
+document.getElementById('addBtn').addEventListener('click', () => calculate('add'));
+document.getElementById('subtractBtn').addEventListener('click', () => calculate('subtract'));
+document.getElementById('multiplyBtn').addEventListener('click', () => calculate('multiply'));
+document.getElementById('divideBtn').addEventListener('click', () => calculate('divide'));
+
