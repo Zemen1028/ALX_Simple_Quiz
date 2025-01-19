@@ -1,1 +1,3 @@
-
+function checkAnswer() {
+    // Function body
+}
